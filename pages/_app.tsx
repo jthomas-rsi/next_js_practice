@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import "@/styles/globals.css";
 import theme from "@/styles/theme";
 import { ThemeProvider } from "@emotion/react";
@@ -12,10 +11,6 @@ const App = ({ Component, pageProps }: AppProps) => {
     <meta
       name="viewport"
       content="minimum-scale=1, initial-scale=1, width=device-width"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
   </Head>;
   return (
