@@ -2,6 +2,7 @@
 import "@/styles/globals.css";
 import theme from "@/styles/theme";
 import { ThemeProvider } from "@emotion/react";
+import { CssBaseline } from "@mui/material";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
@@ -19,6 +20,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   </Head>;
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Component {...pageProps} />
     </ThemeProvider>
   );
