@@ -29,9 +29,18 @@ const Footer = () => {
           }}
           sx={{ backgroundColor: "#D5BDAF" }}
         >
-          <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
-          <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
-          <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} />
+          <BottomNavigationAction
+            label="LinkedIn"
+            icon={<LinkedInIcon fontSize="large" />}
+          />
+          <BottomNavigationAction
+            label="Facebook"
+            icon={<FacebookIcon fontSize="large" />}
+          />
+          <BottomNavigationAction
+            label="Twitter"
+            icon={<TwitterIcon fontSize="large" />}
+          />
         </BottomNavigation>
       </Box>
     </Paper>
