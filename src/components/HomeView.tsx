@@ -5,7 +5,7 @@ const HomeView = () => {
     <Box
       sx={{
         minHeight: "100vh",
-        backgroundColor: "#EDEDE9",
+        backgroundColor: "#F5EBE0",
         display: "flex",
         justifyContent: "center",
       }}

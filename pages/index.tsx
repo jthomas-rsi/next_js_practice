@@ -5,12 +5,5 @@ import HomeView from "@/src/components/HomeView";
 import { Box } from "@mui/system";
 
 export default function Home() {
-  return (
-    // <>
-    //   <Box textAlign={"center"}>
-    //     <Typography>Home Page</Typography>
-    //   </Box>
-    // </>
-    <HomeView />
-  );
+  return <HomeView />;
 }

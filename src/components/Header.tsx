@@ -9,6 +9,8 @@ import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import LiveHelpIcon from "@mui/icons-material/LiveHelp";
 import Stack from "@mui/material/Stack";
+import Logo from "../data/genericCompanyLogo_2.jpeg";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -20,18 +22,24 @@ const Header = () => {
       >
         <Toolbar>
           <Avatar
+            variant="rounded"
+            sizes="large"
             sx={{
-              mr: 2,
+              mr: 1,
               backgroundColor: "#D6CCC2",
               width: 70,
               height: 70,
-              padding: "5px",
             }}
           >
-            Next.js
+            <Image
+              src="/genericCompanyLogo_2.png"
+              alt="company-logo"
+              width={70}
+              height={70}
+            />
           </Avatar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Work Project
+            Business Consulting
           </Typography>
 
           <Stack direction={"row"}>
@@ -42,16 +50,19 @@ const Header = () => {
             />
           </Stack>
 
-          <IconButton
-            sx={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <Avatar sx={{ mr: 2 }}>
-              <LiveHelpIcon fontSize="large" />
-            </Avatar>
-            <Typography variant="subtitle2">Live Help</Typography>
+          <IconButton>
+            <Stack
+              sx={{
+                direction: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <Avatar sx={{}}>
+                <LiveHelpIcon fontSize="large" />
+              </Avatar>
+              <Typography variant="subtitle2">Live Help</Typography>
+            </Stack>
           </IconButton>
 
           <Button variant="contained" color="primary">
