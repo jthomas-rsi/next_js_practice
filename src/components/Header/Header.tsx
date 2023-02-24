@@ -9,7 +9,6 @@ import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import LiveHelpIcon from "@mui/icons-material/LiveHelp";
 import Stack from "@mui/material/Stack";
-import Logo from "../data/genericCompanyLogo_2.jpeg";
 import Image from "next/image";
 
 const Header = () => {
@@ -39,7 +38,7 @@ const Header = () => {
             />
           </Avatar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Business Consulting
+            Services Portal
           </Typography>
 
           <Stack direction={"row"}>
