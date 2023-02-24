@@ -1,3 +1,11 @@
-const LoginButton = () => {};
+import Button from "@mui/material/Button";
 
-export default LoginButton;
+const Login = () => {
+  return (
+    <Button variant="contained" color="primary">
+      Login
+    </Button>
+  );
+};
+
+export default Login;
