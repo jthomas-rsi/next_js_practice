@@ -13,6 +13,7 @@ const LiveHelp = () => {
           justifyContent: "center",
           alignItems: "center",
         }}
+        margin={1}
       >
         <Avatar sx={{}}>
           <LiveHelpIcon fontSize="large" />

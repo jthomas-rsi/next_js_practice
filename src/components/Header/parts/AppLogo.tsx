@@ -13,6 +13,7 @@ const AppLogo = () => {
         marginRight: "auto",
         flexWrap: "wrap",
       }}
+      margin={1}
     >
       <Avatar
         variant="rounded"
